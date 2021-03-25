@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>550</width>
+    <height>375</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>40</y>
+      <width>441</width>
+      <height>292</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="5" column="0">
+      <widget class="QPushButton" name="pushButton_6">
+       <property name="text">
+        <string>Openbox Config Manager</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../../../usr/share/pixmaps/obconf.png</normaloff>../../../../usr/share/pixmaps/obconf.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>25</width>
+         <height>25</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="text">
+        <string>Removable Drives and Media</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../../../usr/share/icons/hicolor/48x48/apps/org.xfce.volman.png</normaloff>../../../../usr/share/icons/hicolor/48x48/apps/org.xfce.volman.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>25</width>
+         <height>25</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QPushButton" name="pushButton">
+       <property name="text">
+        <string>Thunar Settings</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../../../usr/share/icons/hicolor/48x48/apps/org.xfce.thunar.png</normaloff>../../../../usr/share/icons/hicolor/48x48/apps/org.xfce.thunar.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>25</width>
+         <height>25</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="text">
+        <string>Qt Creator</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../../../usr/share/icons/hicolor/48x48/apps/QtProject-qtcreator.png</normaloff>../../../../usr/share/icons/hicolor/48x48/apps/QtProject-qtcreator.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>25</width>
+         <height>25</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QPushButton" name="pushButton_5">
+       <property name="text">
+        <string>GScreenshot</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../../../usr/share/pixmaps/gscreenshot.png</normaloff>../../../../usr/share/pixmaps/gscreenshot.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>25</width>
+         <height>25</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="QPushButton" name="pushButton_7">
+       <property name="text">
+        <string>AppImageLauncher Settings</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../../../usr/share/icons/hicolor/64x64/apps/AppImageLauncher.png</normaloff>../../../../usr/share/icons/hicolor/64x64/apps/AppImageLauncher.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>25</width>
+         <height>25</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QPushButton" name="pushButton_4">
+       <property name="text">
+        <string>AppEditor</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../../../usr/share/icons/hicolor/24x24/apps/com.github.donadigo.appeditor.svg</normaloff>../../../../usr/share/icons/hicolor/24x24/apps/com.github.donadigo.appeditor.svg</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>25</width>
+         <height>25</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="0">
+      <widget class="QPushButton" name="pushButton_8">
+       <property name="text">
+        <string>Catfish File Search</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../../../usr/share/icons/hicolor/48x48/apps/org.xfce.catfish.png</normaloff>../../../../usr/share/icons/hicolor/48x48/apps/org.xfce.catfish.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>25</width>
+         <height>25</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>550</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
